@@ -44,14 +44,8 @@ const transferTokenToUser = async (userWalletAddress, amount) => {
 };
 
 const checkUserBalance = async (userWalletAddress) => {
-  const bscDeployerPrivateKey =
-    "b82ca072a288afa9bf367ae59242184a0e250b8db7ceb6e5e3baf30835bc16b1";
 
-  const provider = new Provider(
-    bscDeployerPrivateKey,
-    "https://data-seed-prebsc-1-s1.binance.org:8545"
-  );
-  const web3 = new Web3(provider);
+  const web3 = new Web3("https://data-seed-prebsc-1-s1.binance.org:8545");
   const networkId = await web3.eth.net.getId();
 
   const femToken = new web3.eth.Contract(
@@ -66,5 +60,7 @@ const checkUserBalance = async (userWalletAddress) => {
   );
 };
 
-transferTokenToUser(userWalletAddress, amount);
-checkUserBalance(checkUserBalance);
+// transferTokenToUser(userWalletAddress, amount);
+checkUserBalance(userWalletAddress);
+
+// run with node script.js (on terminal)
