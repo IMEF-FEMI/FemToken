@@ -26,7 +26,7 @@ module.exports = {
       production: true, // Treats this network as if it was a public net. (default: false)
     },
     bscTestNet: {
-      provider: () => new Provider(mnemonic, bscTest),
+      provider: () => new HDWalletProvider(mnemonic, bscTest),
       network_id: 97, // This network is yours, in the cloud.
       production: true, // Treats this network as if it was a public net. (default: false)
     },
