@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0",
-    "@truffle/hdwallet-provider": "^1.4.1"
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "web3": "^1.4.0"
   }
 }

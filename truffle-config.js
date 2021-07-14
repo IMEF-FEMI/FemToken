@@ -1,6 +1,7 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 const sokol = 'https://sokol.poa.network';
 const kccTestNetwork = 'https://rpc-testnet.kcc.network';
+const bscTest = "https://data-seed-prebsc-2-s3.binance.org:8545/";
 
 const fs = require("fs");
 const mnemonic = fs.readFileSync(".secret").toString().trim();
@@ -24,7 +25,11 @@ module.exports = {
       network_id: 322, // This network is yours, in the cloud.
       production: true, // Treats this network as if it was a public net. (default: false)
     },
-
+    bscTestNet: {
+      provider: () => new Provider(mnemonic, bscTest),
+      network_id: 97, // This network is yours, in the cloud.
+      production: true, // Treats this network as if it was a public net. (default: false)
+    },
   },
 
 
