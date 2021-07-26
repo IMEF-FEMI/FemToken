@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 26 2021 01:14:31 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* build/contracts/Context.json
+* build/contracts/ERC20.json
+* build/contracts/FemToken.json
+* build/contracts/IERC20.json
+* build/contracts/IERC20Metadata.json
+* truffle-config.js
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
