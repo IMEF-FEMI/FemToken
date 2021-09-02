@@ -22,7 +22,7 @@ module.exports = {
     },
   kccMainNet: {
       provider: () => new HDWalletProvider(mnemonic, kccMainNetwork),
-      network_id: 323, // This network is yours, in the cloud.
+      network_id: 1, // This network is yours, in the cloud.
       production: true, // Treats this network as if it was a public net. (default: false)
     },
     kccTestNet: {
