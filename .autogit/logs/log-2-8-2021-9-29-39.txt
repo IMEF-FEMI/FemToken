@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Sep 02 2021 09:29:39 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* truffle-config.js
+
+
+Created files:
+* .autogit/logs/log-26-6-2021-1-44-37.txt
+
+
+Deleted files:
+
+
+Renamed files:
